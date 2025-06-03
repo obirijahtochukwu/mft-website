@@ -45,7 +45,7 @@ export default function Welcome() {
           className="h-[71px] w-[71px] absolute right-[126px] bottom-8"
         />
         <img
-          src="/images/Student 1.png"
+          src="/images/Student 2.png"
           alt=""
           className="h-10 w-10 absolute right-52 bottom-10"
         />
