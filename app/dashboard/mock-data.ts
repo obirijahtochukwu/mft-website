@@ -3,7 +3,7 @@ import { Icons } from "@/components/ui/icons";
 export const students = [
   {
     name: "Candice",
-    image: "/images/Student 1.png",
+    image: "/images/Student 2.png",
     comment: `Finished watching "Practice Problems" in "Saxon Math 5/4 - Lesson 6 "`,
     online: true,
     date: "Just Now",
