@@ -18,7 +18,10 @@ export default function Students() {
         </header>
         <section className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-[18px] sm:gap-5">
           {students.map((prop) => (
-            <article className="border border-[var(--grey)] rounded-md flex-col flex">
+            <article
+              key={prop.name}
+              className="border border-[var(--grey)] rounded-md flex-col flex"
+            >
               <header className="border-b border-[var(--grey)] flex items-center gap-3 p-3.5">
                 <div className="flex items-center gap-2 mr-auto">
                   <div className=" relative">
